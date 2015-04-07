@@ -9,7 +9,7 @@
 
 <h2>All Articles:</h2>
 
-<% articlesList.forEach(function(article) { %>
+<% articleList.forEach(function(article) { %>
 <div style="margin-top: 10px;">
   <a href="/articles/<%= article.id %>"><%= article.title %></a><br />
   Author: <%= article.Author.first_name  %> <%= article.Author.last_name  %>
